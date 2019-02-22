@@ -187,7 +187,7 @@ i.fa.fa-bars.toggle {
 }
 
 /***** FOOTER ******/
-
+/* 
 #footer {
   background-color: #F2F3F4;
   text-align: center;
@@ -199,16 +199,16 @@ i.fa.fa-bars.toggle {
   text-align: center;
   padding: 60px;
 
-}
+} */
 
 /***** INTRO ******/
 
 #intro {
-  padding-top: 100px;
-  width: 93%;
+  padding-top: 80;
+  width: 100%;
   margin: auto;
   display: flex;
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 #intro-text {
