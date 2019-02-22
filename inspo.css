@@ -41,32 +41,45 @@ body a:hover {
 /* ******* HEADERS **** */
 
 h1 {
-  font-weight: 300;
-  color: black;
-  font-size: 1.5rem;
+  font-weight: 500;
+  color: #4285f4;
+  font-size: 1.7em;
 }
 
+/* PROJ TITLE */
 h2 {
   font-weight: 300;
   color: black;
-  font-size: 1em;
-  letter-spacing: 0.05rem;
+  font-size: 1.45em;
+  letter-spacing: 0.05em;
 }
 
+/* */
 h3 {
-  font-weight: 300;
-  color: grey;
-  font-size: 1rem;
-  letter-spacing: 0.05rem;
+  font-weight: 500;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #000;
 }
 
+/*upper case bro*/
 h4 {
-  font-weight: 600;
-  color: black;
-  font-size: 0.75rem;
+  font-weight: 500;
+  color: #000;
+  font-size: 0.8em;
   text-transform: uppercase;
-  letter-spacing: 0.1rem;
-  padding-top: 8px;
+  letter-spacing: 0.1em;
+  padding-top: 0px; /*distance between nav and title*/
+}
+
+/*NORMAL MAIN TEXT*/
+h5 {
+  font-weight: 300;
+  color: #000;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+  padding-top: 10px;
 }
 
 
