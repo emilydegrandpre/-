@@ -5,8 +5,8 @@ body {
   padding: 0;
   font-family: Roboto;
   color: #4A4A4A;
-  font-size: 0.7em;
-  /*background-color: #FF4D4D;*/
+  font-size: .8em;
+  background-color: #FFF;
 }
 
 html {
@@ -16,26 +16,11 @@ html {
 
 body a {
   text-decoration: none;
-  color: #6099f6;
+  color: #4285f4;
 }
 
 body a:hover {
   color: #4285f4;
-}
-
-#side a {
-  color: #4285f4;
-  font-size: 1em;
-}
-
-
-#container {
-  /*padding: 20px;*/
-  /*width: 90%;*/
-  margin: auto;
-  /*display: none;*/
-  /*opacity: 0;*/
-
 }
 
 /* ******* HEADERS **** */
@@ -83,217 +68,6 @@ h5 {
 }
 
 
-/*  ******* NAVIGATION ****   */
-
-#navigation a {
-  text-decoration: none;
-  padding-right: 30px;
-  padding-bottom: 30px;
-}
-
-.left-nav {
-  display: inline-block;
-}
-
-
-@media screen and (max-width: 768px) {
-  .left-navigation {
-    background-color: white;
-    left: 0;
-    display: none;
-    text-align: center;
-    right: 0;
-    top: 100%;
-    position: absolute;
-  }
-
-
-  .left-navigation .nav-item {
-    border-top: 1px solid rgba(219, 219, 219, 0.5);
-    padding: 0.75rem;
-
-  }
-  .left-navigation.is-active {
-    display: flex;
-    flex-direction: column;
-    /*margin: auto;*/
-  }
-
-  i.fa.fa-bars.toggle {
-    display: inline-block;
-  }
-
-}
-
-@media screen and (max-width: 425px) {
-  .inner-nav {
-    text-align: center;
-  }
-
-  .title {
-  }
-}
-
-
-/***** INTRO ******/
-
-#intro {
-  padding-top: 80px;
-  width: 90%;
-  margin: auto;
-  display: flex;
-  padding-bottom: 160px;
-}
-
-#intro-text {
-  width: 50%;
-  font-size: .9rem;
-
-
-}
-
-#intro i {
-  padding-right: 10px;
-}
-
-#intro-text span {
-  /*font-size: 1.8rem;*/
-  letter-spacing: 0.02rem;
-  line-height: 1.2em;
-}
-
-.intro-side {
-  width: 40%;
-  text-align: right;
-  margin-top: 5.6rem;
-}
-
-.light-grey {
-  color: #a6b0b9;
-  font-size: 1.5rem;
-  letter-spacing: 0.02rem;
-  line-height: 1.7em;
-  /*display: inline-block;*/
-}
-
-.blue {
-  color: #4285f4;
-}
-
-@media screen and (max-width: 1200px) {
-  #intro-text {
-    font-size: 1.6rem;
-    width: 70%;
-  }
-  .light-grey {
-    font-size: 1.6rem;
-  }
-
-  h1 {
-    font-size: 2.4rem;
-  }
-
-}
-
-@media screen and (max-width: 880px) {
-  #intro-text {
-    font-size: 1.4rem;
-    /*width: 70%;*/
-  }
-  .light-grey {
-    font-size: 1.4rem;
-  }
-
-  h1 {
-    font-size: 2.1rem;
-  }
-
-  #intro {
-  padding-top: 140px !important;
-  }
-
-  .intro-side {
-    display: none;
-  }
-
-}
-
-@media screen and (max-width: 500px) {
-  #intro-text {
-    font-size: 1rem;
-    width: 97% !important;
-    margin: auto;
-  }
-  .light-grey {
-    font-size: 1rem;
-  }
-
-  h1 {
-    font-size: 1.3rem;
-  }
-
-  #intro {
-  padding-top: 130px !important;
-  }
-
-
-}
-
-
-/**** GRID *****/
-
-#work {
-  margin: auto;
-  padding-top: 2rem;
-  width: 95%;
-}
-
-.card {
-  margin: 1rem;
-}
-
-.card img {
-  display: block;
-}
-
-.responsive-img {
-  max-width: 100%;
-}
-
-.fade-container:hover .overlay{
-  opacity:1;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color:  #404040;
-
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.fade-container {
-  position:relative;
-}
-
-
 @media screen and (min-width: 600px) {
   #work {
     display: flex;
@@ -312,7 +86,7 @@ h5 {
   }
 }
 
-/*****COLUMNS******/
+/*****COL BOYS******/
 
 .columns {
   display: flex;
@@ -323,7 +97,6 @@ h5 {
   padding-top: 100px;
 
 }
-
 
 .is-one-third {
   width: 30%;
@@ -356,28 +129,28 @@ h5 {
   display: block;
 }
 
-.abt {
+.herro {
   width: 98% !important;
   text-align: left;
     /*width: 75%;*/
   color: #464646;
-  /*font-size: 1.15em;*/
+  font-size: 1.15em;
   line-height: 1.9em;
-    /*display: flex;*/
+    display: flex;
 } 
 
-/*.abt p {
+.herro p {
   padding-top: 200px;
 }
-*/
+
 @media screen and (max-width: 768px) {
   .columns {
-    /*width: 85%;*/
+    width: 85%;
   }
 
   .is-one-third {
     width: 100%;
-    /*margin-left: 0;*/
+    margin-left: 0;
     margin: auto;
 
   }
@@ -406,10 +179,10 @@ h5 {
   img.shrink { 
     width: 50%;
   }
-/*
+
   .description {
     padding-top: 3rem;
-  }*/
+  }
 
 }
 
@@ -465,7 +238,7 @@ h5 {
 }
 
 .main-content {
-  margin-top: 150px;
+  margin-top: 10px;
 }
 
 .columns p {
@@ -480,4 +253,45 @@ h5 {
   line-height: 2.15em;
 }
 
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 169px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 30px;
+  background-color: #FFF; /* White */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 4px;
+}
+
+/* NAV LINKS // TOP. RIGHT. BOTTOM. LEFT  */
+.sidenav a {
+  padding: 5px 0px 0px 0px;
+  text-decoration: none;
+  font-size: 12px;
+  color: #9AA0A6;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #4285f4;
+}
+
+/* Style page content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidebar */
+  /* 1= top position, 2= LR padding */
+  padding: 10px 70px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 4px;}
+  .sidenav a {font-size: 10px;}
+}
+
+* {box-sizing:border-box}
 
