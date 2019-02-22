@@ -16,11 +16,11 @@ html {
 
 body a {
   text-decoration: none;
-  color: #4285f4;
+  color: #6099f6;
 }
 
 body a:hover {
-  color: #7aa9f5;
+  color: #4285f4;
 }
 
 #side a {
@@ -43,7 +43,7 @@ body a:hover {
 h1 {
   font-weight: 300;
   color: black;
-  font-size: 1.85em;
+  font-size: 1.6em;
 }
 
 h2 {
@@ -56,7 +56,7 @@ h2 {
 h3 {
   font-weight: 300;
   color: black;
-  font-size: 1.2rem;
+  font-size: 1em;
   letter-spacing: 0.05em;
 }
 
@@ -81,57 +81,6 @@ h4 {
 .left-nav {
   display: inline-block;
 }
-
-#navigation {
-  top: 0;
-  z-index: 100;
-  position: fixed;
-  background-color: white;
-  width: 100%;
-  color: black;
-  padding-top: 30px;
-}
-
-#navigation h2 {
-  margin: 1rem;
-  /*color: black;*/
-  /*padding-left: 1rem;*/
-  font-weight: 300;
-  font-size: 1rem;
-}
-
-#content-nav h2 {
-  margin: 1rem;
-  color: black;
-  /*padding-left: 1rem;*/
-}
-
-
-.inner-navigation {
-  display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  /*width: 93%;*/
-  margin: auto;
-  width: 93%;
-}
-
-.left-navigation {
-  display: inline-block;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  font-size: 0.9em;
-  /*text-transform: capitalize;*/
-}
-
-.left-navigation a {
-  color: #4A4A4A;
-}
-
-i.fa.fa-bars.toggle {
-   display: none;
-}
-
 
 
 @media screen and (max-width: 768px) {
@@ -172,29 +121,15 @@ i.fa.fa-bars.toggle {
   }
 }
 
-/***** FOOTER ******/
-
-#footer {
-  background-color: #F2F3F4;
-  text-align: center;
-  padding-top: 30px;
-  margin-top: 200px;
-}
-
-.footer-text {
-  text-align: center;
-  padding: 60px;
-
-}
 
 /***** INTRO ******/
 
 #intro {
-  padding-top: 200px;
-  width: 93%;
+  padding-top: 120px;
+  width: 90%;
   margin: auto;
   display: flex;
-  padding-bottom: 170px;
+  padding-bottom: 160px;
 }
 
 #intro-text {
@@ -230,24 +165,6 @@ i.fa.fa-bars.toggle {
 
 .blue {
   color: #4285f4;
-}
-
-.intro-side a {
-  color: #B5BBBF;
-  font-size: 1.2rem;
-  padding: 10px;
-  /*padding-top: 20px;*/
-}
-
-#side {
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  text-align: right;
-  float: right;
-  /*color: ;*/
-  font-size: 0.83rem;
-  padding-right: 8px;
-  letter-spacing: 0.06rem;
 }
 
 @media screen and (max-width: 1200px) {
@@ -308,8 +225,6 @@ i.fa.fa-bars.toggle {
 
 
 }
-
-
 
 
 /**** GRID *****/
