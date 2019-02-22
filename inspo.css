@@ -125,7 +125,7 @@ h4 {
 /***** INTRO ******/
 
 #intro {
-  padding-top: 120px;
+  padding-top: 80px;
   width: 90%;
   margin: auto;
   display: flex;
@@ -133,8 +133,8 @@ h4 {
 }
 
 #intro-text {
-  width: 40%;
-  font-size: .8rem;
+  width: 50%;
+  font-size: .9rem;
 
 
 }
