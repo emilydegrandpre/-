@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,700,900');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500, 700, 900');
 
 body {
   margin: 0;
   padding: 0;
   font-family: Roboto;
-  color: #4A4A4A;
+  color: #555;
   font-size: .8em;
   background-color: #FFF;
 }
@@ -16,7 +16,7 @@ html {
 
 body a {
   text-decoration: none;
-  color: #4285f4;
+  color: #4295f4;
 }
 
 body a:hover {
@@ -26,7 +26,7 @@ body a:hover {
 /* ******* HEADERS **** */
 
 h1 {
-  font-weight: 500;
+  font-weight: 300;
   color: #4285f4;
   font-size: 1.7em;
 }
@@ -41,21 +41,21 @@ h2 {
 
 /* */
 h3 {
-  font-weight: 500;
+  font-weight: 300;
   font-size: 1em;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #000;
+  color: #e4e6e9;
 }
 
 /*upper case bro*/
 h4 {
-  font-weight: 500;
+  font-weight: 300;
   color: #000;
-  font-size: 0.8em;
+  font-size: 1em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  padding-top: 0px; /*distance between nav and title*/
+  padding-top: 4px; /*distance between nav and title*/
 }
 
 /*NORMAL MAIN TEXT*/
@@ -64,7 +64,9 @@ h5 {
   color: #000;
   font-size: 1em;
   letter-spacing: 0.05em;
-  padding-top: 10px;
+  padding-top: 4px;
+  line-height: 1.6em
+
 }
 
 
@@ -268,10 +270,10 @@ h5 {
 
 /* NAV LINKS // TOP. RIGHT. BOTTOM. LEFT  */
 .sidenav a {
-  padding: 5px 0px 0px 0px;
+  padding: 2px 0px 0px 0px;
   text-decoration: none;
   font-size: 12px;
-  color: #9AA0A6;
+  color: #555;
   display: block;
 }
 
@@ -294,4 +296,3 @@ h5 {
 }
 
 * {box-sizing:border-box}
-
