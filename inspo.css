@@ -200,7 +200,7 @@ i.fa.fa-bars.toggle {
 
 #intro-text {
   width: 60%;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 
 
 }
@@ -210,7 +210,7 @@ i.fa.fa-bars.toggle {
 }
 
 #intro-text span {
-  /*font-size: 1.8rem;*/
+  font-size: 1.3rem;
   letter-spacing: 0.02rem;
   line-height: 1.7em;
 }
