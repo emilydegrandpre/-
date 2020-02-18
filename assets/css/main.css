@@ -46,6 +46,12 @@ h1 {
   font-size: 2.6rem;
 }
 
+h2 {
+  font-weight: 300;
+  color: black;
+  font-size: .9rem;
+}
+
 h2 a{
 
   font-weight: 500;
