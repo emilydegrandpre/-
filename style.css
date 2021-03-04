@@ -1,0 +1,138 @@
+@font-face {
+    font-family: Akzidenzgrotesk Regular;
+    src: url(akzidenzgrotesk-regular.otf);
+}
+@font-face {
+    font-family: Akzidenzgrotesk Bold;
+    src: url(akzidenzgrotesk-bold.otf);
+}
+body {
+	font-family: Akzidenzgrotesk Regular, sans-serif;
+	font-size: 24px;
+	line-height: 1.4;
+	background-color: #fff8f1;
+	color: #333333;
+}
+
+header {
+  background-color: #eea472;
+  border-bottom: 2px #333 solid;
+  padding: 20px 20px 20px 130px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+header p {
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  padding-bottom: 1px;
+  /* border-bottom: 2px solid #eea472; */
+  background-color: #ffe7d1;
+}
+a:hover {
+  background-color: #eea472;
+}
+nav {
+  padding-top: 10px;
+}
+nav a {
+  background-color: transparent;
+}
+nav a.selected {
+  border-bottom: 1px solid #000;
+}
+nav a.not-selected {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  font-size: 24px;
+}
+h2 {
+  font-family: Akzidenzgrotesk Bold;
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+
+main {
+  margin: 200px 30px 130px 130px;
+  max-width: 600px;
+}
+main p {
+  padding-bottom: 20px;
+}
+main ol, ul {
+  list-style: none;
+}
+main section {
+  margin-bottom: 30px;
+}
+
+.channels {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.channels a {
+  border-bottom: none;
+  background-color: #fff8f1;
+}
+ul.channels li {
+    text-align: center;
+    width: 190px;
+    height: 190px;
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  	padding: 20px;
+    background-color: #fff;
+  	
+}
+ul.channels li:hover {
+	background-color: #eea472;
+  color: #333;
+}
+li h3 {
+  font-size: 16px;
+}
+
+@media (max-width: 870px) {
+  
+  .mobile-hidden{
+    display: none;
+  }
+  body {
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+header {
+  padding: 20px 110px 20px 20px;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+main {
+  margin: 150px 20px 100px 20px;
+}
+main p {
+  padding-bottom: 30px;
+}
+main section {
+  margin-bottom: 30px;
+}
+
+.channels {
+  justify-content: center;
+}
+  
+}
