@@ -10,12 +10,12 @@ body {
 	font-family: Akzidenzgrotesk Regular, sans-serif;
 	font-size: 24px;
 	line-height: 1.4;
-	background-color: #fff8f1;
+	background-color: #f4fecd;
 	color: #333333;
 }
 
 header {
-  background-color: #eea472;
+  background-color: #ccee00;
   border-bottom: 2px #333 solid;
   padding: 20px 20px 20px 130px;
   position: fixed;
