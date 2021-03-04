@@ -1,10 +1,10 @@
 @font-face {
     font-family: Akzidenzgrotesk Regular;
-    src: url(akzidenzgrotesk-regular.otf);
+    src: akzidenzgrotesk-regular.otf;
 }
 @font-face {
     font-family: Akzidenzgrotesk Bold;
-    src: url(akzidenzgrotesk-bold.otf);
+    src: akzidenzgrotesk-bold.otf;
 }
 body {
 	font-family: Akzidenzgrotesk Regular, sans-serif;
@@ -31,10 +31,10 @@ a {
   color: #333;
   padding-bottom: 1px;
   /* border-bottom: 2px solid #eea472; */
-  background-color: #ffe7d1;
+  background-color: #f4fecd;
 }
 a:hover {
-  background-color: #eea472;
+  background-color: #e2fc84;
 }
 nav {
   padding-top: 10px;
@@ -79,7 +79,7 @@ main section {
 
 .channels a {
   border-bottom: none;
-  background-color: #fff8f1;
+  background-color: #eefedf;
 }
 ul.channels li {
     text-align: center;
@@ -96,7 +96,7 @@ ul.channels li {
   	
 }
 ul.channels li:hover {
-	background-color: #eea472;
+	background-color: #e2fc84;
   color: #333;
 }
 li h3 {
