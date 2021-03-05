@@ -1,10 +1,10 @@
 @font-face {
     font-family: Akzidenzgrotesk Regular;
-    src: url(akzidenzgrotesk-regular.otf);
+    src: url(AkzidenzGrotesk-Regular.otf);
 }
 @font-face {
     font-family: Akzidenzgrotesk Bold;
-    src: url(akzidenzgrotesk-bold.otf);
+    src: url(AkzidenzGrotesk-Bold.otf);
 }
 body {
 	font-family: Akzidenzgrotesk Regular, sans-serif;
